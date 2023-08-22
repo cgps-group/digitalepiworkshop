@@ -12,6 +12,7 @@ title: "Digital Epidemiology hands-on exercise"
 -   [Introduction](#introduction)
 -   [Learning outcomes](#learning-outcomes)
     -   [Collect field data with Epicollect](#collect-field-data-with-epicollect)
+    -   [Analyse genomes with PathogenWatch] (#analyse-genomes-with-pathogenwatch)
     -   [Merge data with Data-flo](#merge-data-with-data-flo)
     -   [Microreact](#microreact)
 -   [Resources](#resources)
@@ -37,17 +38,18 @@ Aim: To use web and mobile tools for the collection of epi data in the field, it
 
 *Note: This exercise is a work of fiction. Any resemblance to a real life situation is purely coincidental.*
 
-During January and February 2023, fifty-eight patients reported to eight hospitals in Asunción with acute watery diarrhoea and vomiting. *Shigella sonnei* was isolated from the stool samples of fourty patients (all belong to CTX-M-27 producing *S. sonnei* ST152), and one colony from each confirmed case was sequenced on Illumina MiSeq. An epidemiological investigation revealed that more than half of the culture-confirmed cases regularly visited the Ñu Guazú Park, where water fountains and other water sources are accessible, and which is crossed by the Arroyo Itay. This suggested that these infections could be related to contaminated water in the park. The epidemiological and demographic data is summarised on the file epi_data.csv.
+During July and August 2023, fifty-eight patients reported to eight hospitals in Cartagena with acute watery diarrhoea and vomiting. *Klebsiella pneumoniae* was isolated from the stool samples of fourty patients (all belong to *K. pneumoniae* ST258), and one colony from each confirmed case was sequenced on Illumina MiSeq. An epidemiological investigation revealed that more than half of the culture-confirmed cases regularly visited the Casa Geriatrica Paz y Salud, formerly known as Holiday Inn Cartagena, where water fountains and other water sources are accessible. This suggested that these infections could be related to contaminated water in this home for the elderly. The epidemiological and demographic data is summarised on the file epi_data.csv.
 
-A team of disease detectives will be deployed around Ñu Guazú Park today to investigate the potential source of these infections using Epicollect5, data-flo, and Microreact, free mobile and web applications developed by the Centre for Genomic Pathogen Surveillance for easy data collection, integration and visualisation.
+A team of disease detectives will be deployed around Casa Geriatrica Paz y Salud today to investigate the potential source of these infections using Epicollect5, data-flo, Pathogenwatch, and Microreact, free mobile and web applications developed by the Centre for Genomic Pathogen Surveillance for easy data collection, analyses, integration and visualisation.
 
 # Learning Outcomes {#learning-outcomes}
 
 At the end of this session the participants will be able to:
 
 1.  Collect data in the field with Epicollect5.
-2.  Merge epidemiological, laboratory and genomic data with data-flo
-3.  Create a Microreact project to visualise epidemiological, laboratory and genomic data
+2.  Submit genomes to PathogenWatch for bioinformatics analyses
+3.  Merge epidemiological, laboratory and genomic data with data-flo
+4.  Create a Microreact project to visualise epidemiological, laboratory and genomic data
 
 ## 1. Collect field data with Epicollect {#collect-field-data-with-epicollect}
 
@@ -59,15 +61,15 @@ Make sure your phone is connected to WiFi. Open the **Epicollect5** app on your 
 
 ![](img/epicollect_logo.jpeg)
 
-Add the project **Asuncion 2023 S sonnei Outbreak** by typing into the search box --you will need to be connected to WiFi.
+Add the project **Cartagena 2023 K. pneumoniae Outbreak** by typing into the search box --you will need to be connected to WiFi.
 
 ![](img/epicollect_search.jpeg)
 
-Using the map of the Ñu Guasú park provided, walk to the location of your collection point (water source). Locations are indicated by the black dots labelled a-j. You will not need internet access to collect data in the field.
+Using the plan of the Casa Geriatrica Paz y Salud, Holiday Inn, provided, walk to the location of your collection point (water source). Locations are indicated by the black dots labelled a-j. You will not need internet access to collect data in the field.
 
 <img src="img/location_map.png" width="50%" height="50%"/>
 
-Open the **Asuncion 2023 S sonnei Outbreak** project and add an entry. Follow the form to collect a water sample and associated metadata.
+Open the **Cartagena 2023 K pneumoniae Outbreak** project and add an entry. Follow the form to collect a water sample and associated metadata.
 
 <img src="img/epicollect_add_entry.jpg" width="40%" height="40%"/>
 
@@ -77,43 +79,63 @@ Return to the Epidemic Intelligence Center (i.e. the classroom).
 
 One of the pair members only. **Upload your entry (and image)** to the Epicollect5 server --make sure you are connected to the WiFi.
 
-<img src="epicollect_upload_data.jpeg" width="30%" height="30%"/>
+<img src="img/epicollect_upload_data.jpeg" width="30%" height="30%"/>
 
 <br>
 
 Submit your water sample to the instructor, which will be sent to the reference lab for culture confirmation.
 
-Once all entries are uploaded by the disease detectives we will take a look at the data together on [**https://five.epicollect.net/project/asuncion-2023-s-sonnei-outbreak**](https://five.epicollect.net/project/asuncion-2023-s-sonnei-outbreak)
+Once all entries are uploaded by the disease detectives we will take a look at the data together on [**https://five.epicollect.net/project/cartagena-2023-k-pneumoniae-outbreak**](https://five.epicollect.net/project/cartagena-2023-k-pneumoniae-outbreak)
 
 Answer the following questions:
 
 > 1.  What is the most common type of water source?
 > 2.  Was it possible to collect a sample from all 13 sources? If not, what were the reasons?
 
-## 2. Merge data with Data-flo {#merge-data-with-data-flo}
+## 2. Analyse genomes with PathogenWatch {#analyse-genomes-with-pathogenwatch}
+
+Go over to pathogen.watch
+
+Click on the upload link at the top right
+
+Click on Single Genome FASTAs
+
+Drag and Drop provided fasta files into the browser and wait for analysis to finish
+
+Click on view genomes
+
+Select all genomes
+
+Click on Selected Genomes
+
+Click on Download data
+
+Click on MLST (Pasteur). This will download a csv file with the results.
+
+## 3. Merge data with Data-flo {#merge-data-with-data-flo}
 
 `https://data-flo.io/`
 
 *Note: you need to sign-up for data-flo and Microreact. See instructions in the [Resources](#resources) section. Creating your own account will allow you to manage and edit your projects.*
 
-The reference lab has sent you the culture results on an Excel file called ([`lab_results.xlsx`](https://drive.google.com/drive/folders/1KMbks4oWsFRlB2Qt48MkZnTMLJTUB13f?usp=share_link)). The lab reported that **2 out of 13** water samples from Ñu Guasú park were positive for *S. sonnei*. **This immediately prompted the closure of the 2 water sources.**
+The reference lab has sent you the culture results on an Excel file called ([`lab_results.xlsx`]()). The lab reported that **2 out of 13** water samples from Casa Geriatrica Paz y Salud were positive for *K. pneumoniae*. **This immediately prompted the closure of the 2 water sources.**
 
-> Does this confirm that the source of the outbreak was contaminated water from Ñu Guasú park?
+> Does this confirm that the source of the outbreak was contaminated water from Casa Geriatrica Paz y Salud?
 
-One colony from each source was sequenced on Illumina MiSeq by the reference lab. A maximum likelihood phylogenetic tree ([`tree.nwk`](https://drive.google.com/drive/folders/1KMbks4oWsFRlB2Qt48MkZnTMLJTUB13f?usp=share_link)) was inferred from the genomes of the 34 clinical samples and 2 environmental (water) samples. Six genomes from a previous outbreak (Jan-Feb 2020) were also included in the tree inference and their associated data added to the ([`epi_data.csv`](https://drive.google.com/drive/folders/1KMbks4oWsFRlB2Qt48MkZnTMLJTUB13f?usp=share_link)) file.
+One colony from each source was sequenced on Illumina MiSeq by the reference lab. A maximum likelihood phylogenetic tree ([`tree.nwk`]()) was inferred from the genomes of the 34 clinical samples and 2 environmental (water) samples. Six genomes from a previous outbreak (Jan-Feb 2020) were also included in the tree inference and their associated data added to the ([`epi_data.csv`]()) file.
 
 The disease detectives now have the information needed for the investigation in the following formats:
 
 -   `epi_data.csv` Epi data from 34 clinical cases and 6 cases from previous outbreak
--   `Epicollect project` Metadata of 13 water sources from Ñu Guasú Park
+-   `Epicollect project` Metadata of 13 water sources from Casa Geriatrica Paz y Salud
 -   `lab_results.xlsx` Culture and serotyping results
 -   `tree.nwk` Phylogenetic tree of 34 clinical cases, 2 culture-positive water samples, and 6 cases from previous outbreak
 
-The files are located in [**this google drive link**](https://drive.google.com/drive/folders/1KMbks4oWsFRlB2Qt48MkZnTMLJTUB13f?usp=share_link).
+The files are located in [**this link**]().
 
 We will combine data from these different sources with a data-flo workflow that takes the files above and the data from the Epicollect project as input, and creates as an output a Microreact project where the data can be visualised.
 
-Open the data-flo workflow ([**https://data-flo.io/run?prnvpvmKzq8rDKbPD9ZXAs**](https://data-flo.io/run?prnvpvmKzq8rDKbPD9ZXAs))
+Open the data-flo workflow ([**https://data-flo.io/run?wbhznSXSn3qAomUnGrXesx**](https://data-flo.io/run?wbhznSXSn3qAomUnGrXesx))
 
 <img src="img/dataflo_2023.png" width="50%" height="50%"/>
 
@@ -145,7 +167,7 @@ Now lets go to the implementation page by clicking on the `i` icon.
 
 <img src="img/dataflo_implementation.png" width="50%" height="50%"/>
 
-To run the workflow paste the url of the Epicollect5 project ([**https://five.epicollect.net/project/asuncion-2023-s-sonnei-outbreak**](https://five.epicollect.net/project/asuncion-2023-s-sonnei-outbreak)) and upload the files, found [`here`](https://drive.google.com/drive/folders/1KMbks4oWsFRlB2Qt48MkZnTMLJTUB13f?usp=share_link).
+To run the workflow paste the url of the Epicollect5 project ([**https://five.epicollect.net/project/cartagena-2023-k-pneumoniae-outbreak**](https://five.epicollect.net/project/cartagena-2023-k-pneumoniae-outbreak)) and upload the files, found [`here`]().
 
 <img src="img/dataflo_run2.png" width="50%" height="50%"/>
 
@@ -158,7 +180,7 @@ Before you open the Microreact project answer the following questions:
 > 1.  If later on we wanted to add additional entries (i.e. water samples) to the Epicollect project, could we use the same data-flo? If so, how would this be beneficial?
 > 2.  Do you use/know of any other methods to join data? If so, how do they compare with data-flo?
 
-## 3. Microreact {#microreact}
+## 4. Microreact {#microreact}
 
 `https://microreact.org/`
 
