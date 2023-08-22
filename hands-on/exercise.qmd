@@ -38,7 +38,7 @@ Aim: To use web and mobile tools for the collection of epi data in the field, it
 
 *Note: This exercise is a work of fiction. Any resemblance to a real life situation is purely coincidental.*
 
-During July and August 2023, fifty-eight patients reported to eight hospitals in Cartagena with acute watery diarrhoea and vomiting. *Klebsiella pneumoniae* was isolated from the stool samples of fourty patients (all belong to *K. pneumoniae* ST258), and one colony from each confirmed case was sequenced on Illumina MiSeq. An epidemiological investigation revealed that more than half of the culture-confirmed cases regularly visited the Casa Geriatrica Paz y Salud, formerly known as Holiday Inn Cartagena, where water fountains and other water sources are accessible. This suggested that these infections could be related to contaminated water in this home for the elderly. The epidemiological and demographic data is summarised on the file epi_data.csv.
+During July and August 2023, fifty-eight patients reported to eight hospitals in Cartagena with acute watery diarrhoea and vomiting. *Klebsiella pneumoniae* was isolated from the stool samples of 34 patients (all belong to *K. pneumoniae* ST258), and one colony from each confirmed case was sequenced on Illumina MiSeq. An epidemiological investigation revealed that more than half of the culture-confirmed cases regularly visited the Casa Geriatrica Paz y Salud, formerly known as Holiday Inn Cartagena, where water fountains and other water sources are accessible. This suggested that these infections could be related to contaminated water in this home for the elderly. The epidemiological and demographic data is summarised on the file epi_data.csv.
 
 A team of disease detectives will be deployed around Casa Geriatrica Paz y Salud today to investigate the potential source of these infections using Epicollect5, data-flo, Pathogenwatch, and Microreact, free mobile and web applications developed by the Centre for Genomic Pathogen Surveillance for easy data collection, analyses, integration and visualisation.
 
@@ -94,17 +94,21 @@ Answer the following questions:
 
 ## 2. Analyse genomes with PathogenWatch {#analyse-genomes-with-pathogenwatch}
 
-Go over to pathogen.watch
+The reference lab has sent you the culture results on an Excel file called ([`lab_results.xlsx`]()). The lab reported that **2 out of 13** water samples from Casa Geriatrica Paz y Salud were positive for *K. pneumoniae*. **This immediately prompted the closure of the 2 water sources.**
+
+> Does this confirm that the source of the outbreak was contaminated water from Casa Geriatrica Paz y Salud?
+
+One colony from each source was sequenced on Illumina MiSeq by the reference lab and the bioinformatics team has assembled each of them. We will use [**https://pathogen.watch**](https://pathogen.watch) to identify the sequence type (ST) of these genomes using the Pasteur scheme.
 
 Click on the upload link at the top right
 
-Click on Single Genome FASTAs
+Click on `Single Genome FASTAs`
 
 Drag and Drop provided fasta files into the browser and wait for analysis to finish
 
-Click on view genomes
+Click on `VIEW GENOMES`
 
-Select all genomes
+Select the two analysed genomes
 
 Click on Selected Genomes
 
@@ -118,17 +122,14 @@ Click on MLST (Pasteur). This will download a csv file with the results.
 
 *Note: you need to sign-up for data-flo and Microreact. See instructions in the [Resources](#resources) section. Creating your own account will allow you to manage and edit your projects.*
 
-The reference lab has sent you the culture results on an Excel file called ([`lab_results.xlsx`]()). The lab reported that **2 out of 13** water samples from Casa Geriatrica Paz y Salud were positive for *K. pneumoniae*. **This immediately prompted the closure of the 2 water sources.**
-
-> Does this confirm that the source of the outbreak was contaminated water from Casa Geriatrica Paz y Salud?
-
-One colony from each source was sequenced on Illumina MiSeq by the reference lab. A maximum likelihood phylogenetic tree ([`tree.nwk`]()) was inferred from the genomes of the 34 clinical samples and 2 environmental (water) samples. Six genomes from a previous outbreak (Jan-Feb 2020) were also included in the tree inference and their associated data added to the ([`epi_data.csv`]()) file.
+A maximum likelihood phylogenetic tree ([`tree.nwk`]()) was inferred from the genomes of the 34 clinical samples and 2 environmental (water) samples. Six genomes from a previous outbreak (Jul-Aug 2022) were also included in the tree inference and their associated data added to the ([`epi_data.csv`]()) file.
 
 The disease detectives now have the information needed for the investigation in the following formats:
 
 -   `epi_data.csv` Epi data from 34 clinical cases and 6 cases from previous outbreak
 -   `Epicollect project` Metadata of 13 water sources from Casa Geriatrica Paz y Salud
 -   `lab_results.xlsx` Culture and serotyping results
+-   `mlst-Pasteur.csv` MLST results from PathogenWatch 
 -   `tree.nwk` Phylogenetic tree of 34 clinical cases, 2 culture-positive water samples, and 6 cases from previous outbreak
 
 The files are located in [**this link**]().
