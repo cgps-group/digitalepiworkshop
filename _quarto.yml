@@ -17,7 +17,7 @@ website:
           - definitions.qmd
           - use-cases.qmd
           - stakeholders-mapping.qmd
-          #- hands-on/exercise.qmd
+          - hands-on/exercise.qmd
           - microreact/microreact.qmd
           - data-flo/data-flo.qmd
           - resources.qmd

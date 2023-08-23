@@ -12,7 +12,7 @@ title: "Digital Epidemiology hands-on exercise"
 -   [Introduction](#introduction)
 -   [Learning outcomes](#learning-outcomes)
     -   [Collect field data with Epicollect](#collect-field-data-with-epicollect)
-    -   [Analyse genomes with PathogenWatch] (#analyse-genomes-with-pathogenwatch)
+    -   \[Analyse genomes with PathogenWatch\] (#analyse-genomes-with-pathogenwatch)
     -   [Merge data with Data-flo](#merge-data-with-data-flo)
     -   [Microreact](#microreact)
 -   [Resources](#resources)
@@ -129,7 +129,7 @@ The disease detectives now have the information needed for the investigation in 
 -   `epi_data.csv` Epi data from 34 clinical cases and 6 cases from previous outbreak
 -   `Epicollect project` Metadata of 13 water sources from Casa Geriatrica Paz y Salud
 -   `lab_results.xlsx` Culture and serotyping results
--   `mlst-Pasteur.csv` MLST results from PathogenWatch 
+-   `mlst-Pasteur.csv` MLST results from PathogenWatch
 -   `tree.nwk` Phylogenetic tree of 34 clinical cases, 2 culture-positive water samples, and 6 cases from previous outbreak
 
 The files are located in [**this link**]().
