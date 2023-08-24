@@ -213,11 +213,11 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="module-leads-julio-diaz-caballero-and-monica-abrudan" class="level3">
-<h3 class="anchored" data-anchor-id="module-leads-julio-diaz-caballero-and-monica-abrudan">Module Leads: Julio Diaz Caballero and Monica Abrudan</h3>
+<section id="module-lead-julio-diaz-caballero" class="level3">
+<h3 class="anchored" data-anchor-id="module-lead-julio-diaz-caballero">Module Lead: Julio Diaz Caballero</h3>
 </section>
-<section id="based-on-the-exercise-developed-by-silvia-argimon" class="level3">
-<h3 class="anchored" data-anchor-id="based-on-the-exercise-developed-by-silvia-argimon">based on the exercise developed by Silvia Argimon</h3>
+<section id="this-exercise-is-based-on-training-materials-developed-by-silvia-argimon" class="level3">
+<h3 class="anchored" data-anchor-id="this-exercise-is-based-on-training-materials-developed-by-silvia-argimon"><em>This exercise is based on training materials developed by Silvia Argimon</em></h3>
 </section>
 <section id="table-of-contents" class="level1">
 <h1>Table of contents</h1>
@@ -227,7 +227,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="#learning-outcomes">Learning outcomes</a>
 <ul>
 <li><a href="#collect-field-data-with-epicollect">Collect field data with Epicollect</a></li>
-<li>[Analyse genomes with PathogenWatch] (#analyse-genomes-with-pathogenwatch)</li>
+<li><a href="#analyse-genomes-with-pathogenwatch">Analyse genomes with PathogenWatch</a></li>
 <li><a href="#merge-data-with-data-flo">Merge data with Data-flo</a></li>
 <li><a href="#microreact">Microreact</a></li>
 </ul></li>
@@ -250,10 +250,11 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="introduction" class="level1">
 <h1>Introduction</h1>
-<p>Aim: To use web and mobile tools for the collection of epi data in the field, its integration with lab and bioinformatics data, and to finally visualise it together to detect a putative outbreak.</p>
+<p>Aim: To use web and mobile tools for the collection of epi data in the field, its integration with lab and bioinformatics data, and to finally visualise it together to investigate a putative outbreak.</p>
 <p><em>Note: This exercise is a work of fiction. Any resemblance to a real life situation is purely coincidental.</em></p>
-<p>During July and August 2023, fifty-eight patients reported to eight hospitals in Cartagena with acute watery diarrhoea and vomiting. <em>Klebsiella pneumoniae</em> was isolated from the stool samples of 34 patients (all belong to <em>K. pneumoniae</em> ST258), and one colony from each confirmed case was sequenced on Illumina MiSeq. An epidemiological investigation revealed that more than half of the culture-confirmed cases regularly visited the Casa Geriatrica Paz y Salud, formerly known as Holiday Inn Cartagena, where water fountains and other water sources are accessible. This suggested that these infections could be related to contaminated water in this home for the elderly. The epidemiological and demographic data is summarised on the file epi_data.csv.</p>
-<p>A team of disease detectives will be deployed around Casa Geriatrica Paz y Salud today to investigate the potential source of these infections using Epicollect5, data-flo, Pathogenwatch, and Microreact, free mobile and web applications developed by the Centre for Genomic Pathogen Surveillance for easy data collection, analyses, integration and visualisation.</p>
+<p>During July and August 2023, fifty-eight patients reported to eight hospitals in Cartagena with acute watery diarrhoea and vomiting. <em>Klebsiella pneumoniae</em> was isolated from the stool samples of 34 patients (all belong to <em>K. pneumoniae</em> ST258), and one colony from each confirmed case was sequenced on Illumina MiSeq. An epidemiological investigation revealed that the culture-confirmed cases <strong><em>were residents of</em></strong> Casa Geriatrica Paz y Salud, formerly known as Holiday Inn Cartagena. This suggested that these infections could be related to <strong><em>living conditions and poor hygiene</em></strong> in this home for the elderly. The epidemiological and demographic data is summarised on the file epi_data.csv.</p>
+<p><strong>Following the confirmation of the 34 positive cases of K. pneumoniae ST258 infections, the management of Casa Geriatrica Paz y Salud denied that the Klebsiella pneumoniae could have spread within the residential home and declared that deep cleaning of the residential home was taking place regularly.</strong></p>
+<p><strong>A team of disease detectives will be deployed around Casa Geriatrica Paz y Salud today to investigate the efficiency of the cleaning measures described by the residential home management,</strong> using Epicollect5, data-flo, Pathogenwatch, and Microreact, free mobile and web applications developed by the Centre for Genomic Pathogen Surveillance for easy data collection, analyses, integration and visualisation.</p>
 </section>
 <section id="learning-outcomes" class="level1">
 <h1>Learning Outcomes</h1>
@@ -280,7 +281,6 @@ ul.task-list li input[type="checkbox"] {
 <p>Return to the Epidemic Intelligence Center (i.e.&nbsp;the classroom).</p>
 <p>One of the pair members only. <strong>Upload your entry (and image)</strong> to the Epicollect5 server –make sure you are connected to the WiFi.</p>
 <p><img src="img/epicollect_upload_data.jpeg" width="30%" height="30%"></p>
-<p><br></p>
 <p>Submit your water sample to the instructor, which will be sent to the reference lab for culture confirmation.</p>
 <p>Once all entries are uploaded by the disease detectives we will take a look at the data together on <a href="https://five.epicollect.net/project/cartagena-2023-k-pneumoniae-outbreak"><strong>https://five.epicollect.net/project/cartagena-2023-k-pneumoniae-outbreak</strong></a></p>
 <p>Answer the following questions:</p>
@@ -311,7 +311,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="merge-data-with-data-flo">3. Merge data with Data-flo</h2>
 <p><code>https://data-flo.io/</code></p>
 <p><em>Note: you need to sign-up for data-flo and Microreact. See instructions in the <a href="#resources">Resources</a> section. Creating your own account will allow you to manage and edit your projects.</em></p>
-<p>A maximum likelihood phylogenetic tree (<a href=""><code>tree.nwk</code></a>) was inferred from the genomes of the 34 clinical samples and 2 environmental (water) samples. Six genomes from a previous outbreak (Jul-Aug 2022) were also included in the tree inference and their associated data added to the (<a href=""><code>epi_data.csv</code></a>) file.</p>
+<p>A maximum likelihood phylogenetic tree (<a href=""><code>tree.nwk</code></a>) was inferred from the genomes of the 34 clinical samples and 2 environmental (water) samples. Six genomes from a previous outbreak (Jul-Aug 2020) were also included in the tree inference and their associated data added to the (<a href=""><code>epi_data.csv</code></a>) file.</p>
 <p>The disease detectives now have the information needed for the investigation in the following formats:</p>
 <ul>
 <li><code>epi_data.csv</code> Epi data from 34 clinical cases and 6 cases from previous outbreak</li>
@@ -373,7 +373,7 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="img/microreact_source.png" width="50%" height="50%"></p>
 <blockquote class="blockquote">
 <ol start="3" type="1">
-<li>Can you confirm that the source of the outbreak is the contaminated water from Ñu Guasú Park?</li>
+<li>Can you confirm that the source of the outbreak is the contaminated water from Casa Geriatrica Paz y Salud?</li>
 <li>Why is it useful to include genomes from a previous outbreak in the analysis? Is the current outbreak related to the past outbreak from Jan-Feb 2020?</li>
 </ol>
 </blockquote>
@@ -383,11 +383,6 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="img/microreact_palette.png" width="50%" height="50%"></p>
 <p>Change the colour column back to “Hospital” and add the columns “Source” and “Household” as metadata blocks. For this, select the slider icon from top right of the map panel, then, click on the <code>Metadata blocks</code> button. Finally, select “Source” and “Household” from the list of options.</p>
 <p><img src="img/microreact_metadata_blocks.png" width="50%" height="50%"></p>
-<blockquote class="blockquote">
-<ol start="5" type="1">
-<li>Do any of the cases share a household? Taking into account the incubation period for S. sonnei (a few hours to five days), does the data support intra-household transmission?</li>
-</ol>
-</blockquote>
 </section>
 </section>
 <section id="resources" class="level1">
@@ -479,7 +474,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 <section id="create-a-microreact-project-from-a-google-spreadsheet" class="level2">
-<h2 class="anchored" data-anchor-id="create-a-microreact-project-from-a-google-spreadsheet">3. Create a microreact project from a Google Spreadsheet</h2>
+<h2 class="anchored" data-anchor-id="create-a-microreact-project-from-a-google-spreadsheet">3. Create a Microreact project from a Google Spreadsheet</h2>
 <ol type="a">
 <li>Open this <a href="https://docs.google.com/spreadsheets/d/1DN6fyhHmmkgEU0Ml7Ep_y_2l_JpQZkBfmXZzEwRs70Y/edit?usp=sharing"><strong>Google spreadsheet</strong></a></li>
 </ol>

@@ -2,24 +2,20 @@
 title: "Agenda"
 ---
 
-![](img/workflow1.jpg)
+![Workshop workflow](img/workflow1.jpg){width="80%"}
 
-**SESSION 1 -- Welcome**
+**Introduction to Digital Epidemiology**
 
-**SESSION 2 --Introduction to Digital Epidemiology**
+*What is Digital Epidemiology? Definitions, tools and real-world scenarios.*
 
-What is Digital Epidemiology? Definitions and real-world scenarios.
+**Stakeholder mapping**
 
-**SESSION 3 -- Stakeholder mapping**
+*Workshop with theory and applications.*
 
-Workshop with theory and applications.
+**Digital Epidemiology in local context**
 
-**SESSION 4 -- Digital Epidemiology in your local context**
+*System architecture and data architecture. Local strengths and challenges of Digital Epidemiology*.
 
-Workshop: System architecture and data architecture. Local strengths and challenges of Digital Epidemiology.
-
-Workshop: How can Digital Epidemiology be applied to your context, with pre- and post- intervention examples.
+**Hands-on exercise**
 
 **Digital Epidemiology resources**
-
-**SESSION 5 -- Hands-on exercise**

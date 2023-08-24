@@ -2,9 +2,9 @@
 title: "Digital Epidemiology hands-on exercise"
 ---
 
-### Module Leads: Julio Diaz Caballero and Monica Abrudan
+### Module Lead: Julio Diaz Caballero
 
-### based on the exercise developed by Silvia Argimon
+### *This exercise is based on training materials developed by Silvia Argimon*
 
 # Table of contents
 
@@ -12,7 +12,7 @@ title: "Digital Epidemiology hands-on exercise"
 -   [Introduction](#introduction)
 -   [Learning outcomes](#learning-outcomes)
     -   [Collect field data with Epicollect](#collect-field-data-with-epicollect)
-    -   \[Analyse genomes with PathogenWatch\] (#analyse-genomes-with-pathogenwatch)
+    -   [Analyse genomes with PathogenWatch](#analyse-genomes-with-pathogenwatch)
     -   [Merge data with Data-flo](#merge-data-with-data-flo)
     -   [Microreact](#microreact)
 -   [Resources](#resources)
@@ -34,13 +34,15 @@ The [**Centre for Genomic Pathogen Surveillance**](https://www.pathogensurveilla
 
 # Introduction {#introduction}
 
-Aim: To use web and mobile tools for the collection of epi data in the field, its integration with lab and bioinformatics data, and to finally visualise it together to detect a putative outbreak.
+Aim: To use web and mobile tools for the collection of epi data in the field, its integration with lab and bioinformatics data, and to finally visualise it together to investigate a putative outbreak.
 
 *Note: This exercise is a work of fiction. Any resemblance to a real life situation is purely coincidental.*
 
-During July and August 2023, fifty-eight patients reported to eight hospitals in Cartagena with acute watery diarrhoea and vomiting. *Klebsiella pneumoniae* was isolated from the stool samples of 34 patients (all belong to *K. pneumoniae* ST258), and one colony from each confirmed case was sequenced on Illumina MiSeq. An epidemiological investigation revealed that more than half of the culture-confirmed cases regularly visited the Casa Geriatrica Paz y Salud, formerly known as Holiday Inn Cartagena, where water fountains and other water sources are accessible. This suggested that these infections could be related to contaminated water in this home for the elderly. The epidemiological and demographic data is summarised on the file epi_data.csv.
+During July and August 2023, fifty-eight patients reported to eight hospitals in Cartagena with acute watery diarrhoea and vomiting. *Klebsiella pneumoniae* was isolated from the stool samples of 34 patients (all belong to *K. pneumoniae* ST258), and one colony from each confirmed case was sequenced on Illumina MiSeq. An epidemiological investigation revealed that the culture-confirmed cases ***were residents of*** Casa Geriatrica Paz y Salud, formerly known as Holiday Inn Cartagena. This suggested that these infections could be related to ***living conditions and poor hygiene*** in this home for the elderly. The epidemiological and demographic data is summarised on the file epi_data.csv.
 
-A team of disease detectives will be deployed around Casa Geriatrica Paz y Salud today to investigate the potential source of these infections using Epicollect5, data-flo, Pathogenwatch, and Microreact, free mobile and web applications developed by the Centre for Genomic Pathogen Surveillance for easy data collection, analyses, integration and visualisation.
+**Following the confirmation of the 34 positive cases of K. pneumoniae ST258 infections, the management of Casa Geriatrica Paz y Salud denied that the Klebsiella pneumoniae could have spread within the residential home and declared that deep cleaning of the residential home was taking place regularly.**
+
+**A team of disease detectives will be deployed around Casa Geriatrica Paz y Salud today to investigate the efficiency of the cleaning measures described by the residential home management,** using Epicollect5, data-flo, Pathogenwatch, and Microreact, free mobile and web applications developed by the Centre for Genomic Pathogen Surveillance for easy data collection, analyses, integration and visualisation.
 
 # Learning Outcomes {#learning-outcomes}
 
@@ -81,8 +83,6 @@ One of the pair members only. **Upload your entry (and image)** to the Epicollec
 
 <img src="img/epicollect_upload_data.jpeg" width="30%" height="30%"/>
 
-<br>
-
 Submit your water sample to the instructor, which will be sent to the reference lab for culture confirmation.
 
 Once all entries are uploaded by the disease detectives we will take a look at the data together on [**https://five.epicollect.net/project/cartagena-2023-k-pneumoniae-outbreak**](https://five.epicollect.net/project/cartagena-2023-k-pneumoniae-outbreak)
@@ -122,7 +122,7 @@ Click on MLST (Pasteur). This will download a csv file with the results.
 
 *Note: you need to sign-up for data-flo and Microreact. See instructions in the [Resources](#resources) section. Creating your own account will allow you to manage and edit your projects.*
 
-A maximum likelihood phylogenetic tree ([`tree.nwk`]()) was inferred from the genomes of the 34 clinical samples and 2 environmental (water) samples. Six genomes from a previous outbreak (Jul-Aug 2022) were also included in the tree inference and their associated data added to the ([`epi_data.csv`]()) file.
+A maximum likelihood phylogenetic tree ([`tree.nwk`]()) was inferred from the genomes of the 34 clinical samples and 2 environmental (water) samples. Six genomes from a previous outbreak (Jul-Aug 2020) were also included in the tree inference and their associated data added to the ([`epi_data.csv`]()) file.
 
 The disease detectives now have the information needed for the investigation in the following formats:
 
@@ -206,7 +206,7 @@ Change the colour column to "Source". Click on the eye icon at the top left of t
 
 <img src="img/microreact_source.png" width="50%" height="50%"/>
 
-> 3.  Can you confirm that the source of the outbreak is the contaminated water from Ñu Guasú Park?
+> 3.  Can you confirm that the source of the outbreak is the contaminated water from Casa Geriatrica Paz y Salud?
 > 4.  Why is it useful to include genomes from a previous outbreak in the analysis? Is the current outbreak related to the past outbreak from Jan-Feb 2020?
 
 Microreact assigns colours automatically to every column in your metadata table, but you can customise them. Let's change the colour column to "Household". Click on the eye icon at the top left of the page. Then select "Household" from the `Colour Column` dropdown list.
@@ -220,8 +220,6 @@ Now Select "Categorical" from the `Colour Palette` option. Next Select "qualitat
 Change the colour column back to "Hospital" and add the columns "Source" and "Household" as metadata blocks. For this, select the slider icon from top right of the map panel, then, click on the `Metadata blocks` button. Finally, select "Source" and "Household" from the list of options.
 
 <img src="img/microreact_metadata_blocks.png" width="50%" height="50%"/>
-
-> 5.  Do any of the cases share a household? Taking into account the incubation period for S. sonnei (a few hours to five days), does the data support intra-household transmission?
 
 # Resources {#resources}
 
@@ -313,7 +311,7 @@ j.  Finally, select "One column: Formatted Values" from the `Temporal Data Type`
 
 <img src="img/microreact_temp_data_type.png" width="50%" height="50%"/>
 
-## 3. Create a microreact project from a Google Spreadsheet
+## 3. Create a Microreact project from a Google Spreadsheet
 
 a.  Open this [**Google spreadsheet**](https://docs.google.com/spreadsheets/d/1DN6fyhHmmkgEU0Ml7Ep_y_2l_JpQZkBfmXZzEwRs70Y/edit?usp=sharing)
 

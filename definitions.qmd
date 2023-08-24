@@ -4,9 +4,9 @@ title: "What is Digital Epidemiology?"
 
 # The importance of Digital Epidemiology
 
-***\"Digital epidemiology is epidemiology building on digital data and tools\" (Salathé M. et al, Life Sci Soc Policy. 2018)***
+***"Digital epidemiology is epidemiology building on digital data and tools" (Salathé M. et al, Life Sci Soc Policy. 2018)***
 
-![](img/digitalepi.png)
+![](img/digitalepi.jpg)
 
 Funded by the NIHR under the [Global Health Research Unit programme](https://www.nihr.ac.uk/explore-nihr/funding-programmes/global-health-research-units.htm), our work at the [Centre for Genomic Pathogen Surveillance](https://www.pathogensurveillance.net/) focuses specifically on the applications of digital epidemiology of infectious diseases, including outbreak investigations, pathogen surveillance, understanding of vaccine efficacy and spread of antimicrobial resistance genes and vehicles. 
 
