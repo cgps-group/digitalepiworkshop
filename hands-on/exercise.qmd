@@ -19,7 +19,7 @@ title: "Digital Epidemiology hands-on exercise"
     -   [Install and test Epicollect5 on your mobile phone](#install-and-test-epicollect5-on-your-mobile-phone)
     -   [Sign-in to data-flo](#sign-in-to-data-flo)
     -   [Sign-in to Microreact](#sign-in-to-microreact)
-    -   [Web colours](#web-colours)
+    -   [Web colours](#web-colours) 
 -   [Bonus activities](#bonus-activities)
 
 # Background {#background}
@@ -209,7 +209,7 @@ Change the colour column to "Source". Click on the eye icon at the top left of t
 > 3.  Can you confirm that the K. pneumoniae isolated from Casa Geriatrica Paz y Salud is closely related to the patient isolates?
 > 4.  Why is it useful to include genomes from a previous outbreak in the analysis? Is the current outbreak related to the past outbreak from Jan-Feb 2020?
 
-Microreact assigns colours automatically to every column in your metadata table, but you can customise them. Let's change the colour column to "Household". Click on the eye icon at the top left of the page. Then select "Household" from the `Colour Column` dropdown list.
+Microreact assigns colours automatically to every column in your metadata table, but you can customise them. Let's change the colour column to "Infection Type". Click on the eye icon at the top left of the page. Then select "Infection Type" from the `Colour Column` dropdown list.
 
 <img src="img/microreact_household.png" width="50%" height="50%"/>
 
@@ -217,7 +217,7 @@ Now Select "Categorical" from the `Colour Palette` option. Next Select "qualitat
 
 <img src="img/microreact_palette.png" width="50%" height="50%"/>
 
-Change the colour column back to "Hospital" and add the columns "Source" and "Household" as metadata blocks. For this, select the slider icon from top right of the tree panel, then, click on the `Metadata blocks` button. Finally, select "Source" and "Household" from the list of options.
+Change the colour column back to "Hospital" and add the columns "Source" and "Ward" as metadata blocks. For this, select the slider icon from top right of the tree panel, then, click on the `Metadata blocks` button. Finally, select "Source" and "Household" from the list of options.
 
 <img src="img/microreact_metadata_blocks.png" width="50%" height="50%"/>
 
@@ -267,7 +267,7 @@ a.  Go to the [**epicollect link provided above**](https://five.epicollect.net/p
 
 b.  Select `VIEW DATA`.
 
-<img src="img/epicollect_view_data.PNG" width="50%" height="50%"/>
+<img src="img/epicollect_view_data.png" width="50%" height="50%"/>
 
 c.  Click on `Download` and select your format of choice.
 
