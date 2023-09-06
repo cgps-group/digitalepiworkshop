@@ -102,19 +102,37 @@ One colony from each source was sequenced on Illumina MiSeq by the reference lab
 
 Click on the upload link at the top right
 
+<img src="img/pathogenwatch_upload.png" width="70%" height="70%"/>
+
 Click on `Single Genome FASTAs`
+
+<img src="img/pathogenwatch_singlefasta.png" width="70%" height="70%"/>
 
 Drag and Drop provided fasta files into the browser and wait for analysis to finish
 
+<img src="img/pathogenwatch_dragdrop.png" width="70%" height="70%"/>
+
 Click on `VIEW GENOMES`
+
+<img src="img/pathogenwatch_viewgenomes.png" width="70%" height="70%"/>
 
 Select the two analysed genomes
 
-Click on Selected Genomes
+<img src="img/pathogenwatch_select.png" width="70%" height="70%"/>
+
+Click on `Selected Genomes`
+
+<img src="img/pathogenwatch_selected.png" width="70%" height="70%"/>
 
 Click on Download data
 
+<img src="img/pathogenwatch_download.png" width="70%" height="70%"/>
+
 Click on MLST (Pasteur). This will download a csv file with the results.
+
+<img src="img/pathogenwatch_mlst.png" width="70%" height="70%"/>
+
+You should now be able to find the `mlst-Pasteur.csv` in your `Downloads` folder.
 
 ## 3. Merge data with Data-flo {#merge-data-with-data-flo}
 
