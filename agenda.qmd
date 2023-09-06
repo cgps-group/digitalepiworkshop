@@ -2,20 +2,6 @@
 title: "Agenda"
 ---
 
+The detailed agenda can be found [here](img/Agenda_CADA.pdf)
+
 ![Workshop workflow](img/workflow1.jpg){width="80%"}
-
-**Introduction to Digital Epidemiology**
-
-*What is Digital Epidemiology? Definitions, tools and real-world scenarios.*
-
-**Stakeholder mapping**
-
-*Workshop with theory and applications.*
-
-**Digital Epidemiology in local context**
-
-*System architecture and data architecture. Local strengths and challenges of Digital Epidemiology*.
-
-**Hands-on exercise**
-
-**Digital Epidemiology resources**
