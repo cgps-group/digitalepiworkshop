@@ -69,7 +69,7 @@ Add the project **Cartagena 2023 K. pneumoniae Outbreak** by typing into the sea
 
 Using the plan of the Casa Geriatrica Paz y Salud, Holiday Inn, provided, walk to the location of your collection point. Locations are indicated by the black dots labelled a-j. You will not need internet access to collect data in the field.
 
-<img src="img/location_map.png" width="50%" height="50%"/>
+<img src="img/location_map.png" width="100%" height="100%"/>
 
 Open the **Cartagena 2023 K pneumoniae Outbreak** project and add an entry. Follow the form to collect a sample and associated metadata.
 
@@ -112,7 +112,7 @@ Drag and Drop provided fasta files into the browser and wait for analysis to fin
 
 <img src="img/pathogenwatch_dragdrop.png" width="70%" height="70%"/>
 
-Click on `VIEW GENOMES`
+Click on `VIEW GENOMES`ll
 
 <img src="img/pathogenwatch_viewgenomes.png" width="70%" height="70%"/>
 
