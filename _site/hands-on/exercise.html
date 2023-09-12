@@ -224,7 +224,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="#background">Background</a></li>
 <li><a href="#introduction">Introduction</a></li>
-<li><a href="#learning-outcomes">Learning outcomes</a>
+<li><a href="#learning-outcomes">Objectives</a>
 <ul>
 <li><a href="#collect-field-data-with-epicollect">Collect field data with Epicollect</a></li>
 <li><a href="#analyse-genomes-with-pathogenwatch">Analyse genomes with PathogenWatch</a></li>
@@ -252,12 +252,12 @@ ul.task-list li input[type="checkbox"] {
 <h1>Introduction</h1>
 <p>Aim: To use web and mobile tools for the collection of epi data in the field, integrate epi data with lab and bioinformatics data, and visualise all data together to investigate a putative outbreak.</p>
 <p><em>Note: This exercise is a work of fiction. Any resemblance to a real life situation is purely coincidental.</em></p>
-<p>During July and August 2023, <em>Klebsiella pneumoniae</em> was isolated from clinical samples of 34 patients at several hospitals and clinics in and around Cartagena. Approximately half of the patients had presented with urinary tract infections (UTIs) although a variety of other infection types were seen including three sepsis cases. One colony from each confirmed case was sequenced on an Illumina MiSeq. An epidemiological investigation revealed that more than half of the culture-confirmed cases <strong><em>were residents at a large residential care home for the elderly, Casa Geriatrica Paz y Salud, formerly known as Holiday Inn Cartagena</em></strong>. This suggested that the care home was the central point of transmission in this outbreak. The epidemiological and demographic data is summarised in the file epi_data.csv.</p>
+<p>During July and August 2023, <em>Klebsiella pneumoniae</em> was isolated from clinical samples of 34 patients at several hospitals and clinics in and around Cartagena. Approximately half of the patients had presented with urinary tract infections (UTIs) although a variety of other infection types were seen including three sepsis cases. One colony from each confirmed case was sequenced on an Illumina MiSeq. An epidemiological investigation revealed that more than half of the culture-confirmed cases <strong><em>were residents at a large residential care home for the elderly, Casa Geriatrica Paz y Salud, formerly known as Holiday Inn Cartagena</em></strong>. This suggested that the care home was the central point of transmission in this outbreak. The epidemiological and demographic data is summarised in the file <a href="https://drive.google.com/file/d/1IUu6Q5wcaLEVQCFyKe005-0xTSuWxB7l/view?usp=drive_link">epi_data.csv</a>.</p>
 <p><strong>Following the confirmation of the 34 positive cases of <em>K. pneumoniae</em> ST258 infections, the management of Casa Geriatrica Paz y Salud denied that the Klebsiella pneumoniae could have spread within the residential home and declared that deep cleaning of the residential home was taking place regularly.</strong></p>
-<p><strong><em>A team of disease detectives will be deployed around Casa Geriatrica Paz y Salud today to investigate the possibility of environmental contamination of </em>K. pneumoniae* within the residential home</strong>*, using Epicollect5, data-flo, Pathogenwatch, and Microreact, free mobile and web applications developed by the Centre for Genomic Pathogen Surveillance for easy data collection, analyses, integration and visualisation.</p>
+<p><strong><em>A team of disease detectives will be deployed around Casa Geriatrica Paz y Salud today to investigate the possibility of environmental contamination of</em></strong> <strong>K. pneumoniae* within the residential home</strong>*, using Epicollect5, data-flo, Pathogenwatch, and Microreact, free mobile and web applications developed by the Centre for Genomic Pathogen Surveillance for easy data collection, analyses, integration and visualisation.</p>
 </section>
 <section id="learning-outcomes" class="level1">
-<h1>Learning Outcomes</h1>
+<h1>Objectives</h1>
 <p>At the end of this session the participants will be able to:</p>
 <ol type="1">
 <li>Collect data in the field with Epicollect5.</li>
@@ -293,34 +293,43 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="analyse-genomes-with-pathogenwatch" class="level2">
 <h2 class="anchored" data-anchor-id="analyse-genomes-with-pathogenwatch">2. Analyse genomes with PathogenWatch</h2>
-<p>The reference lab has sent you the culture results in an Excel file called (<a href=""><code>lab_results.xlsx</code></a>). The lab reported that <strong>2 out of 13</strong> water samples from Casa Geriatrica Paz y Salud were positive for <em>K. pneumoniae</em>. <strong>This immediately prompted the closure of the 2 rooms.</strong></p>
+<p>The reference lab has sent you the culture results in an Excel file called (<a href="https://docs.google.com/spreadsheets/d/1ukjQPDBbp9wYKs3mm0U9FRxqOc67Q_Xe/edit?usp=drive_link&amp;ouid=108741433975672489406&amp;rtpof=true&amp;sd=true"><code>lab_results.xlsx</code></a>). The lab reported that <strong>2 out of 13</strong> water samples from Casa Geriatrica Paz y Salud were positive for <em>K. pneumoniae</em>. <strong>This immediately prompted the closure of the 2 rooms.</strong></p>
 <blockquote class="blockquote">
 <p>Does this confirm that the source of the outbreak can be found in the Casa Geriatrica Paz y Salud?</p>
 </blockquote>
 <p>One colony from each source was sequenced on Illumina MiSeq by the reference lab and the bioinformatics team has assembled each of them. We will use <a href="https://pathogen.watch"><strong>https://pathogen.watch</strong></a> to identify the sequence type (ST) of these genomes using the Pasteur scheme.</p>
 <p>Click on the upload link at the top right</p>
+<p><img src="img/pathogenwatch_upload.png" width="70%" height="70%"></p>
 <p>Click on <code>Single Genome FASTAs</code></p>
-<p>Drag and Drop provided fasta files into the browser and wait for analysis to finish</p>
+<p><img src="img/pathogenwatch_singlefasta.png" width="70%" height="70%"></p>
+<p>Drag and Drop provided fasta files (<a href="https://drive.google.com/file/d/1RFUCv7XEWoFkcw2atXRyGPoIfi9Z1K2g/view?usp=drive_link">file1</a> and <a href="https://drive.google.com/file/d/1XoN-IbjduA785BNx4r8OUo1ljwaW03a_/view?usp=drive_link">file2</a>) into the browser and wait for analysis to finish</p>
+<p><img src="img/pathogenwatch_dragdrop.png" width="70%" height="70%"></p>
 <p>Click on <code>VIEW GENOMES</code></p>
+<p><img src="img/pathogenwatch_viewgenomes.png" width="70%" height="70%"></p>
 <p>Select the two analysed genomes</p>
-<p>Click on Selected Genomes</p>
+<p><img src="img/pathogenwatch_select.png" width="70%" height="70%"></p>
+<p>Click on <code>Selected Genomes</code></p>
+<p><img src="img/pathogenwatch_selected.png" width="70%" height="70%"></p>
 <p>Click on Download data</p>
+<p><img src="img/pathogenwatch_download.png" width="70%" height="70%"></p>
 <p>Click on MLST (Pasteur). This will download a csv file with the results.</p>
+<p><img src="img/pathogenwatch_mlst.png" width="70%" height="70%"></p>
+<p>You should now be able to find the <a href="https://drive.google.com/file/d/1dpagR9zHyk1WtJhvfsWqskwZhNc8Enax/view?usp=drive_link"><code>mlst-Pasteur.csv</code></a> in your <code>Downloads</code> folder.</p>
 </section>
 <section id="merge-data-with-data-flo" class="level2">
 <h2 class="anchored" data-anchor-id="merge-data-with-data-flo">3. Merge data with Data-flo</h2>
 <p><code>https://data-flo.io/</code></p>
 <p><em>Note: you need to sign-up for data-flo and Microreact. See instructions in the <a href="#resources">Resources</a> section. Creating your own account will allow you to manage and edit your projects.</em></p>
-<p>A maximum likelihood phylogenetic tree (<a href=""><code>tree.nwk</code></a>) was inferred from the genomes of the 34 clinical samples and 2 environmental (water) samples. Six genomes from a previous outbreak (Jul-Aug 2020) were also included in the tree inference and their associated data added to the (<a href=""><code>epi_data.csv</code></a>) file.</p>
+<p>A maximum likelihood phylogenetic tree (<a href="https://drive.google.com/file/d/1R8nyAXNaiGIBL-2u30sD-W5Ajy-VNUeR/view?usp=drive_link"><code>tree.nwk</code></a>) was inferred from the genomes of the 34 clinical samples and 2 environmental (water) samples. Six genomes from a previous outbreak (Jul-Aug 2020) were also included in the tree inference and their associated data added to the <a href="https://drive.google.com/file/d/1IUu6Q5wcaLEVQCFyKe005-0xTSuWxB7l/view?usp=drive_link"><code>epi_data.csv</code></a> file.</p>
 <p>The disease detectives now have the information needed for the investigation in the following formats:</p>
 <ul>
-<li><code>epi_data.csv</code> Epi data from 34 clinical cases and 6 cases from previous outbreak</li>
+<li><a href="https://drive.google.com/file/d/1IUu6Q5wcaLEVQCFyKe005-0xTSuWxB7l/view?usp=drive_link"><code>epi_data.csv</code></a> Epi data from 34 clinical cases and 6 cases from previous outbreak</li>
 <li><code>Epicollect project</code> Metadata of 13 water sources from Casa Geriatrica Paz y Salud</li>
-<li><code>lab_results.xlsx</code> Culture and serotyping results</li>
-<li><code>mlst-Pasteur.csv</code> MLST results from PathogenWatch</li>
-<li><code>tree.nwk</code> Phylogenetic tree of 34 clinical cases, 2 culture-positive water samples, and 6 cases from previous outbreak</li>
+<li><a href="https://docs.google.com/spreadsheets/d/1ukjQPDBbp9wYKs3mm0U9FRxqOc67Q_Xe/edit?usp=drive_link&amp;ouid=108741433975672489406&amp;rtpof=true&amp;sd=true"><code>lab_results.xlsx</code></a> Culture and serotyping results</li>
+<li><a href="https://drive.google.com/file/d/1dpagR9zHyk1WtJhvfsWqskwZhNc8Enax/view?usp=drive_link"><code>mlst-Pasteur.csv</code></a> MLST results from PathogenWatch</li>
+<li><a href="https://drive.google.com/file/d/1R8nyAXNaiGIBL-2u30sD-W5Ajy-VNUeR/view?usp=drive_link"><code>tree.nwk</code></a> Phylogenetic tree of 34 clinical cases, 2 culture-positive water samples, and 6 cases from previous outbreak</li>
 </ul>
-<p>The files are located in <a href=""><strong>this link</strong></a>.</p>
+<p>The files are located in <a href="https://drive.google.com/drive/folders/1raGT9V6QrobVJMdBWgwVAQ8zpuIHfjGa?usp=drive_link"><strong>this link</strong></a>.</p>
 <p>We will combine data from these different sources with a data-flo workflow that takes the files above and the data from the Epicollect project as input, and creates as an output a Microreact project where the data can be visualised.</p>
 <p>Open the data-flo workflow (<a href="https://data-flo.io/run?wbhznSXSn3qAomUnGrXesx"><strong>https://data-flo.io/run?wbhznSXSn3qAomUnGrXesx</strong></a>)</p>
 <p><img src="img/dataflo_2023.png" width="50%" height="50%"></p>
@@ -341,7 +350,7 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="img/dataflo_save.png" width="50%" height="50%"></p>
 <p>Now lets go to the implementation page by clicking on the <code>i</code> icon.</p>
 <p><img src="img/dataflo_implementation.png" width="50%" height="50%"></p>
-<p>To run the workflow paste the url of the Epicollect5 project (<a href="https://five.epicollect.net/project/cartagena-2023-k-pneumoniae-outbreak"><strong>https://five.epicollect.net/project/cartagena-2023-k-pneumoniae-outbreak</strong></a>) and upload the files, found <a href=""><code>here</code></a>.</p>
+<p>To run the workflow paste the url of the Epicollect5 project (<a href="https://five.epicollect.net/project/cartagena-2023-k-pneumoniae-outbreak"><strong>https://five.epicollect.net/project/cartagena-2023-k-pneumoniae-outbreak</strong></a>) and upload the files, found <a href="https://drive.google.com/drive/folders/1zcrHcTf2ZXY_CHFcOSyTtLFVgJjrnXgl?usp=drive_link"><code>here</code></a><code>(file1 and file2)</code>.</p>
 <p><img src="img/dataflo_run2.png" width="50%" height="50%"></p>
 <p>Click on <strong><code>Run</code></strong>. The Outputs box now shows the url of a Microreact project created by data-flo.</p>
 <p><img src="img/dataflo_result.png" width="50%" height="50%"></p>
@@ -454,7 +463,7 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p><img src="img/microreact_browse_files.png" width="20%" height="20%"></p>
 <ol start="5" type="a">
-<li><p>Choose the files <code>tree.nwk</code> and <code>epi_data.csv</code>, and click on the <code>Open</code> button (These files were downloaded in the <a href="#merge-data-with-data-flo">dataflo</a> section).</p></li>
+<li><p>Choose the files <a href="https://drive.google.com/file/d/1R8nyAXNaiGIBL-2u30sD-W5Ajy-VNUeR/view?usp=drive_link"><code>tree.nwk</code></a> and <a href="https://drive.google.com/file/d/1IUu6Q5wcaLEVQCFyKe005-0xTSuWxB7l/view?usp=drive_link"><code>epi_data.csv</code></a>, and click on the <code>Open</code> button (These files were downloaded in the <a href="#merge-data-with-data-flo">dataflo</a> section).</p></li>
 <li><p>Click on <code>Continue</code> in the next prompts.</p></li>
 <li><p>Your view will look like this:</p></li>
 </ol>
