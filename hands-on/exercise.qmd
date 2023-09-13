@@ -38,7 +38,7 @@ Aim: To use web and mobile tools for the collection of epi data in the field, in
 
 *Note: This exercise is a work of fiction. Any resemblance to a real life situation is purely coincidental.*
 
-During July and August 2023, *Klebsiella pneumoniae* was isolated from clinical samples of 34 patients at several hospitals and clinics in and around Cartagena. Approximately half of the patients had presented with urinary tract infections (UTIs) although a variety of other infection types were seen including three sepsis cases. One colony from each confirmed case was sequenced on an Illumina MiSeq. An epidemiological investigation revealed that more than half of the culture-confirmed cases ***were residents at a large residential care home for the elderly, Casa Geriatrica Paz y Salud, formerly known as Holiday Inn Cartagena***. This suggested that the care home was the central point of transmission in this outbreak. The epidemiological and demographic data is summarised in the file [epi_data.csv](https://drive.google.com/file/d/1jSw0yAU82PTkNePsCKxUWGgy9WqdDot3/view?usp=drive_link).
+During July and August 2023, *Klebsiella pneumoniae* was isolated from clinical samples of 34 patients at several hospitals and clinics in and around Cartagena. Approximately half of the patients had presented with urinary tract infections (UTIs) although a variety of other infection types were seen including three sepsis cases. One colony from each confirmed case was sequenced on an Illumina MiSeq. An epidemiological investigation revealed that more than half of the culture-confirmed cases ***were residents at a large residential care home for the elderly, Casa Geriatrica Paz y Salud, formerly known as Holiday Inn Cartagena***. This suggested that the care home was the central point of transmission in this outbreak. The epidemiological and demographic data is summarised in the file [epi_data.csv](https://drive.google.com/file/d/1J9n1bM_527OCWEq6_6XQf7sheE-XL8Ol/view?usp=drive_link).
 
 **Following the confirmation of the 34 positive cases of *K. pneumoniae* ST258 infections, the management of Casa Geriatrica Paz y Salud denied that the Klebsiella pneumoniae could have spread within the residential home and declared that deep cleaning of the residential home was taking place regularly.**
 
@@ -140,11 +140,11 @@ You should now be able to find the [`mlst-Pasteur.csv`](https://drive.google.com
 
 *Note: you need to sign-up for data-flo and Microreact. See instructions in the [Resources](#resources) section. Creating your own account will allow you to manage and edit your projects.*
 
-A maximum likelihood phylogenetic tree ([`tree.nwk`](https://drive.google.com/file/d/1R8nyAXNaiGIBL-2u30sD-W5Ajy-VNUeR/view?usp=drive_link)) was inferred from the genomes of the 34 clinical samples and 2 environmental (water) samples. Six genomes from a previous outbreak (Jul-Aug 2020) were also included in the tree inference and their associated data added to the [`epi_data.csv`](https://drive.google.com/file/d/1jSw0yAU82PTkNePsCKxUWGgy9WqdDot3/view?usp=drive_link) file.
+A maximum likelihood phylogenetic tree ([`tree.nwk`](https://drive.google.com/file/d/1R8nyAXNaiGIBL-2u30sD-W5Ajy-VNUeR/view?usp=drive_link)) was inferred from the genomes of the 34 clinical samples and 2 environmental (water) samples. Six genomes from a previous outbreak (Jul-Aug 2020) were also included in the tree inference and their associated data added to the [`epi_data.csv`](https://drive.google.com/file/d/1J9n1bM_527OCWEq6_6XQf7sheE-XL8Ol/view?usp=drive_link) file.
 
 The disease detectives now have the information needed for the investigation in the following formats:
 
--   [`epi_data.csv`](https://drive.google.com/file/d/1jSw0yAU82PTkNePsCKxUWGgy9WqdDot3/view?usp=drive_link) Epi data from 34 clinical cases and 6 cases from previous outbreak
+-   [`epi_data.csv`](https://drive.google.com/file/d/1J9n1bM_527OCWEq6_6XQf7sheE-XL8Ol/view?usp=drive_link) Epi data from 34 clinical cases and 6 cases from previous outbreak
 -   `Epicollect project` Metadata of 13 water sources from Casa Geriatrica Paz y Salud
 -   [`lab_results.xlsx`](https://docs.google.com/spreadsheets/d/1ukjQPDBbp9wYKs3mm0U9FRxqOc67Q_Xe/edit?usp=drive_link&ouid=108741433975672489406&rtpof=true&sd=true) Culture and serotyping results
 -   [`mlst-Pasteur.csv`](https://drive.google.com/file/d/1dpagR9zHyk1WtJhvfsWqskwZhNc8Enax/view?usp=drive_link) MLST results from PathogenWatch
@@ -309,7 +309,7 @@ d.  Select `Browse Files`
 
 <img src="img/microreact_browse_files.png" width="20%" height="20%"/>
 
-e.  Choose the files [`tree.nwk`](https://drive.google.com/file/d/1R8nyAXNaiGIBL-2u30sD-W5Ajy-VNUeR/view?usp=drive_link) and [`epi_data.csv`](https://drive.google.com/file/d/1jSw0yAU82PTkNePsCKxUWGgy9WqdDot3/view?usp=drive_link), and click on the `Open` button (These files were downloaded in the [dataflo](#merge-data-with-data-flo) section).
+e.  Choose the files [`tree.nwk`](https://drive.google.com/file/d/1R8nyAXNaiGIBL-2u30sD-W5Ajy-VNUeR/view?usp=drive_link) and [`epi_data.csv`](https://drive.google.com/file/d/1J9n1bM_527OCWEq6_6XQf7sheE-XL8Ol/view?usp=drive_link), and click on the `Open` button (These files were downloaded in the [dataflo](#merge-data-with-data-flo) section).
 
 f.  Click on `Continue` in the next prompts.
 
