@@ -281,7 +281,7 @@ Useful websites to work with web colours:
 
 ### 1. Download data from the Epicollect5 project on the web.
 
-a.  Go to the [**epicollect link provided above**](https://five.epicollect.net/project/asuncion-2023-s-sonnei-outbreak).
+a.  Go to the [**epicollect link provided above**](https://five.epicollect.net/project/cartagena-2023-k-pneumoniae-outbreak).
 
 b.  Select `VIEW DATA`.
 
