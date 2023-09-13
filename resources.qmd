@@ -8,4 +8,6 @@ This work is licensed under a Creative Commons Attribution 4.0 International Lic
 
 Participant feedback form can be accessed here:
 
-![](images/adobe-express-qr-code.png)
+![](img/participant%20feedback-qr-code.png){width="232"}
+
+<https://forms.gle/w5qodeSU1Xzyir7p6>
