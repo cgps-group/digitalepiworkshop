@@ -2,7 +2,7 @@
 title: "Digital Epidemiology hands-on exercise"
 ---
 
-### Module Lead: Julio Diaz Caballero
+### Module Lead: Julio Diaz Caballero,
 
 ### ***based on the exercise developed by Silvia Argimon***
 
@@ -11,12 +11,10 @@ title: "Digital Epidemiology hands-on exercise"
 -   [Background](#background)
 -   [Introduction](#introduction)
 -   [Objectives](#learning-outcomes)
-    -   [Collect field data with Epicollect](#collect-field-data-with-epicollect)
     -   [Analyse genomes with PathogenWatch](#analyse-genomes-with-pathogenwatch)
     -   [Merge data with Data-flo](#merge-data-with-data-flo)
     -   [Explore phylogenetic and epidemiological data with Microreact](#explore-phylogenetic-and-epidemiological-data-with-microreact)
 -   [Resources](#resources)
-    -   [Install and test Epicollect5 on your mobile phone](#install-and-test-epicollect5-on-your-mobile-phone)
     -   [Sign-in to data-flo](#sign-in-to-data-flo)
     -   [Sign-in to Microreact](#sign-in-to-microreact)
     -   [Web colours](#web-colours)
