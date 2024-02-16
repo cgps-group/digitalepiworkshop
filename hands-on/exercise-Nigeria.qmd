@@ -2,7 +2,7 @@
 title: "Digital Epidemiology hands-on exercise"
 ---
 
-### Module Lead: Julio Diaz Caballero,
+### Module Lead: Julio Diaz Caballero
 
 ### ***based on the exercise developed by Silvia Argimon***
 
