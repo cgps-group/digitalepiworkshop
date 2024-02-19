@@ -21,6 +21,9 @@ title: "Digital Epidemiology hands-on exercise"
     -   [Sign-in to Microreact](#sign-in-to-microreact)
     -   [Web colours](#web-colours)
 -   [Bonus activities](#bonus-activities)
+-   [Extra](#extratest)
+
+###### Extra {#extratest}
 
 # Background {#background}
 
