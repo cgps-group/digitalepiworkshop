@@ -1,4 +1,4 @@
-# wcs_resources
+# Digital Epidemiology Workshop, Colombia, September 2023
 
 ---
 
